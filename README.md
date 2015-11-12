@@ -15,7 +15,6 @@ var extendedExpress = statusCodes(express);
 
 var app = extendedExpress();
 ...
-
 app.get('/', function(req, res) {
   res.ok('What's up');
 });

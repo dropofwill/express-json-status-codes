@@ -1,6 +1,6 @@
 {
   "name": "express-json-status-codes",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Extend the Express response object to set the status code and return JSON",
   "main": "index.js",
   "scripts": {
