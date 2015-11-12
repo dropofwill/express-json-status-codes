@@ -1,0 +1,19 @@
+{
+  "name": "express-json-status-codes",
+  "version": "1.0.0",
+  "description": "Extend the Express response object to set the status code and return JSON",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "keywords": [
+    "express",
+    "response"
+  ],
+  "author": "Will Paul <whp3652@rit.edu> (http://will-paul.com)",
+  "license": "BSD-3-Clause",
+  "dependencies": {
+    "http-status-codes": "^1.0.5",
+    "lodash": "^3.10.1"
+  }
+}
