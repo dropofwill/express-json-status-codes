@@ -2,6 +2,7 @@
   "name": "express-json-status-codes",
   "version": "1.0.2",
   "description": "Extend the Express response object to set the status code and return JSON",
+  "repository": "git@github.com:dropofwill/express-json-status-codes.git",
   "main": "index.js",
   "scripts": {
     "test": "./node_modules/mocha/bin/mocha"
