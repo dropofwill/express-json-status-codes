@@ -9,4 +9,6 @@ module.exports = function status(express) {
       return express.response.status(code).json(data);
     };
   });
+
+  return express;
 };
