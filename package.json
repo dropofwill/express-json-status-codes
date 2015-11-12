@@ -4,7 +4,7 @@
   "description": "Extend the Express response object to set the status code and return JSON",
   "main": "index.js",
   "scripts": {
-    "test": "npm test"
+    "test": "./node_modules/mocha/bin/mocha"
   },
   "keywords": [
     "express",
@@ -15,5 +15,11 @@
   "dependencies": {
     "http-status-codes": "^1.0.5",
     "lodash": "^3.10.1"
+  },
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "express": "^4.13.3",
+    "mocha": "^2.3.3",
+    "supertest": "^1.1.0"
   }
 }
